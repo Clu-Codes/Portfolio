@@ -1,0 +1,22 @@
+
+.project-img {
+  margin-right: calc(1rem * 0.5);
+  margin-left: calc(1rem * 0.5);
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  border: seashell;
+  border-radius: 5%;
+  box-shadow: 2px 3px 3px 4px #000000;
+}
+
+@media screen and (max-width: 1700px) {
+  .img-thumbnail{
+    height: 400px;
+  }
+}

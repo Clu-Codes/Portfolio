@@ -1,5 +1,5 @@
 html {
-  background-image: url('./assets/images/portfolio-background-exLarge-min.jpg');
+  background-image: url('./assets/background/portfolio-background-exLarge-min.jpg');
   min-height: 100%;
   background-size: cover;
   background-position: center center;
@@ -34,6 +34,12 @@ ul {
   padding-top: 1.5rem;
 }
 
+.flex-ports {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* @media screen and (max-width: 1600px) {
   html{
     background-image: url('./assets/images/portfolio-background-large-min.jpg');
@@ -45,7 +51,7 @@ ul {
 
 @media screen and (max-width: 900px) {
   html{
-    background-image: url('./assets/images/portfolio-background-large-min.jpg');
+    background-image: url('./assets/background/portfolio-background-large-min.jpg');
     height: auto;
      background-size: cover;
      background-position: center center;
