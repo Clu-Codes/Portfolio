@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+html {
+  background-image: url('./assets/images/portfolio-background-exLarge-min.jpg');
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: azure;
 }
 
-.App-header {
-  background-color: #282c34;
+a:hover {
+  text-shadow: 3px 3px 8px black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* .main-div {
   min-height: 100vh;
+  width: 100vw;
+ 
+} */
+
+.flex-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media screen and (max-width: 1600px) {
+  html{
+    background-image: url('./assets/images/portfolio-background-large-min.jpg');
+    height: auto;
+    background-size: cover;
+    background-position: center center;
   }
-  to {
-    transform: rotate(360deg);
+} */
+
+@media screen and (max-width: 900px) {
+  html{
+    background-image: url('./assets/images/portfolio-background-large-min.jpg');
+    height: auto;
+     background-size: cover;
+     background-position: center center;
   }
 }
