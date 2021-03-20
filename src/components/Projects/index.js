@@ -4,33 +4,39 @@ import './Projects.css'
 
 function ProjectList() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [photos] = useState([
+    const projects = [
         {
             name: 'Something Special',
-            description: 'Local marketplace for event decor'
+            description: 'Local marketplace for event decor',
+            url: 'https://cmnw-something-special.herokuapp.com/login'
         },
         {
             name: "Dungeon's End",
-            description: 'Dunegons and Dragons-based web app.'
+            description: 'Dunegons and Dragons-based web app.',
+            url: 'https://clu-codes.github.io/dungeons-end/'
         },
         {
             name: 'Tech Blog',
-            description: 'Web blog where techies can chat all things tech!'
+            description: 'Web blog where techies can chat all things tech!',
+            url: 'https://clu-codes-tech-blog.herokuapp.com/'
         },
         {
             name: 'Budget Tracker',
-            description: 'Budget Tracking PWA utilizing indexed DB for offline functionality.'
+            description: 'Budget Tracking PWA utilizing indexed DB for offline functionality.',
+            url: 'https://clu-budget-tracker.herokuapp.com/'
         },
         {
             name: 'Team Profile Generator',
-            description: 'Node CLI to quickly compile company labor data.'
+            description: 'Node CLI to quickly compile company labor data.',
+            url: 'https://github.com/Clu-Codes/team-profile-generator'
         },
         {
             name: 'Pizza-Hunt',
-            description: 'PWA Pizza blog... need I say more?!'
+            description: 'Pizza blog... need I say more?!',
+            url: 'https://obscure-brook-94041.herokuapp.com/'
         }
-    ]);
-    const currentProjects = photos;
+    ];
+    // const currentProjects = photos;
 
     const [currentProject, setCurrentProject] = useState();
     const toggleModal = (image, i) => {
@@ -41,7 +47,8 @@ function ProjectList() {
         <div>
             {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
             <div className='flex-ports'>
-                {currentProjects.map((image, i) => (
+                {projects.map((image, i) => (
+                <div>
                     <img
                         src={require(`../../assets/Projects/${i}.png`).default}
                         alt={image.name}
@@ -49,6 +56,8 @@ function ProjectList() {
                         className='img-thumbnail project-img'
                         key={image.name}
                     />
+                    <a href={image.url}>Click To View Project</a>
+                </div>
                 ))}
             </div>
         </div>

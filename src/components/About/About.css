@@ -1,13 +1,11 @@
-/* @import url("https://fonts.google.com/share?selection.family=Kaushan%20Script"); */
-
 section {
     margin-top: 4rem;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 65px;
     font-style: oblique;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .about-me {

@@ -7,8 +7,9 @@ function Modal({onClose, currentProject}) {
             <div className='modal-container'>
                 <h3 className='modal-title'>{name}</h3>
                 <img src={require(`../../assets/Projects/${index}.png`).default}
-                alt='current-project' />
-                <p>{description}</p>
+                alt='current-project'
+                className='modal-project' />
+                <p className='modal-desc'>{description}</p>
                 <button type='button' onClick={onClose}>Close Modal</button>
             </div>
         </div>
