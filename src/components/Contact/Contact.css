@@ -28,13 +28,7 @@ label {
     padding: 5px;
     font-weight: 700;
 }
-/* .name-label {
-    padding: 4.8%;
-}
-.email-label {
-    padding: 5.2%;
-    margin-top: 15px;
-} */
+
 input {
     border-radius: 15px;
     width: 22rem;

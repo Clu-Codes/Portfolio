@@ -1,0 +1,75 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.resume-background {
+    background: rgba(255,255,255, .6);
+    width: 35rem;
+    height: 35rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 3px 3px 4px #000000;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    margin-top: 45px;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 52px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 19px;
+}
+.btn-link {
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+
+button {
+    margin-bottom: -2px;
+    border-radius: 32px;
+    width: 10rem;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), -4px -4px 5px rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+}
+button:active {
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+}
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .resume-background {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-bottom: -1.5rem;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: -1.75rem;
+    }
+    p {
+        margin-bottom: -1.5rem;
+    }
+    input {
+        width: 18rem;
+    }
+}
