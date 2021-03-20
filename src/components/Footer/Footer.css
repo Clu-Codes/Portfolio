@@ -3,7 +3,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
+    background: rgba(0, 0, 0, .8);
 }
 .icon-row {
     display: flex;

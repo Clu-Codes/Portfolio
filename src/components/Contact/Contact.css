@@ -51,6 +51,29 @@ input:focus {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-btn {
+    margin-top: 10px;
+    border-radius: 32px;
+    width: 10rem;
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 2px 3px 3px 4px #000000;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.form-btn:hover {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+}
+.form-btn:active {
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+}
+.form-btn:focus {
+    outline: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -65,5 +88,11 @@ input:focus {
     }
     input {
         width: 18rem;
+    }
+    .error-text {
+        margin-bottom: 2.5px;
+    }
+    .form-btn {
+        margin-top: 5px;
     }
 }

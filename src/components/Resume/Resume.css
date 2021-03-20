@@ -27,16 +27,15 @@ p {
     font-size: 19px;
 }
 .btn-link {
-    color: white;
-    text-shadow: 3px 3px 6px black;
+    color: black;
 }
 
 button {
     margin-bottom: -2px;
     border-radius: 32px;
     width: 10rem;
-    background: rgba(255, 255, 255, .1);
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), -4px -4px 5px rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 2px 3px 3px 4px #000000;
     font-size: 18px;
     font-weight: 600;
 }

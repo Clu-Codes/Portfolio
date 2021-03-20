@@ -1,4 +1,5 @@
 import React from 'react';
+import './Modal.css';
 
 function Modal({onClose, currentProject}) {
     const {name, description, index} = currentProject;
@@ -10,7 +11,7 @@ function Modal({onClose, currentProject}) {
                 alt='current-project'
                 className='modal-project' />
                 <p className='modal-desc'>{description}</p>
-                <button type='button' onClick={onClose}>Close Modal</button>
+                <button type='button' className='modal-btn' onClick={onClose}>Close Modal</button>
             </div>
         </div>
     )

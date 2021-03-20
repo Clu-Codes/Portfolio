@@ -14,7 +14,7 @@ a {
   color: azure;
 }
 
-a:hover {
+nav a:hover {
   text-shadow: 3px 3px 8px black;
 }
 
@@ -39,15 +39,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* @media screen and (max-width: 1600px) {
-  html{
-    background-image: url('./assets/images/portfolio-background-large-min.jpg');
-    height: auto;
-    background-size: cover;
-    background-position: center center;
-  }
-} */
 
 @media screen and (max-width: 900px) {
   html{

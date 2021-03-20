@@ -29,9 +29,9 @@ function App() {
       <main>
         {renderPage(currentPage)}
       </main>
-      <footer>
+      {/* <footer> */}
         <Footer />
-      </footer>
+      {/* </footer> */}
     </div>
   );
 }

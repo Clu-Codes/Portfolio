@@ -46,7 +46,7 @@ function ProjectList() {
     return(
         <div className='container'>
             {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
-            <div>
+            <div className='project-div'>
                 {projects.map((image, i) => (
                 <div className='test'>
                     <img
