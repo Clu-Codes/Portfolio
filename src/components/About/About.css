@@ -19,6 +19,14 @@ h1 {
     box-shadow: 2px 3px 3px 4px #000000;
 }
 
+.clu-img {
+    height: 15vh;
+    width: auto;
+    border-radius: 100%;
+    box-shadow: 2px 3px 3px 4px #000000;
+    margin-top: -11rem;
+}
+
 .about-text {
     width: 67.5%;
     margin-top: -11.5rem;
@@ -32,5 +40,9 @@ h1 {
     }
     .about-title {
         font-size: 50px;
+    }
+    .clu-img {
+        height: 5vh;
+        margin-top: -11rem;
     }
 }
