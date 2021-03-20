@@ -22,11 +22,15 @@ h1 {
 .about-text {
     width: 67.5%;
     margin-top: -11.5rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
     .about-me {
         width: 25rem;
         height: 25rem;
-    };
+    }
+    .about-title {
+        font-size: 50px;
+    }
 }

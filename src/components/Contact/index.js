@@ -37,7 +37,7 @@ function Contact() {
     return(
         <section>
             <div className='contact-me'>
-            <h1>Reach Out</h1>
+            <h1 className='contact-title'>Reach Out</h1>
             <form id='contact-form' onSubmit={handleSumbit}>
                 <div>
                     <label htmlFor='name' className='name-label'>Name:</label>

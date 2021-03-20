@@ -3,7 +3,8 @@ import About from './components/About';
 import Nav  from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       <main>
         {renderPage(currentPage)}
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

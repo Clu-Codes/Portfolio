@@ -44,11 +44,11 @@ function ProjectList() {
         setIsModalOpen(!isModalOpen);
     }
     return(
-        <div>
+        <div className='container'>
             {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
-            <div className='flex-ports'>
+            <div>
                 {projects.map((image, i) => (
-                <div>
+                <div className='test'>
                     <img
                         src={require(`../../assets/Projects/${i}.png`).default}
                         alt={image.name}
@@ -56,7 +56,7 @@ function ProjectList() {
                         className='img-thumbnail project-img'
                         key={image.name}
                     />
-                    <a href={image.url}>Click To View Project</a>
+                    <a href={image.url} target='_blank' rel='noreferrer' className='dest-links'>Go To Project</a>
                 </div>
                 ))}
             </div>

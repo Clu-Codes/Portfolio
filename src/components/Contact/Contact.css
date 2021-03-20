@@ -2,7 +2,7 @@ section {
     margin-top: 4rem;
 }
 
-h1 {
+.contact-title {
     font-size: 85px;
     font-style: oblique;
     font-family: 'Kaushan Script', cursive;
@@ -22,6 +22,7 @@ h1 {
 form {
     width: 67.5%;
     margin-top: -11.5rem;
+    text-align: center;
 }
 label {
     font-size: 18px;
@@ -58,7 +59,7 @@ input:focus {
         height: 25rem;
     }
 
-    h1 {
+    .contact-title {
         font-size: 45px;
         margin-bottom: 5rem;
     }

@@ -12,12 +12,12 @@
     text-align: center;
 }
 
-h1 {
+.resume-titles {
     font-size: 65px;
     margin-top: 45px;
 }
 
-h2 {
+.language-titles {
     font-family: 'Kaushan Script', cursive;
     font-size: 52px;
 }
@@ -58,7 +58,7 @@ button:focus {
         height: 25rem;
     }
 
-    h1 {
+    .resume-titles {
         font-size: 35px;
         margin-bottom: -1.5rem;
     }

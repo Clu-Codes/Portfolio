@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+.github {
+    height: 65px;
+    width: 65px;
+}
+
+.linkedIn {
+    height: 65px;
+    width: 65px;
+}
