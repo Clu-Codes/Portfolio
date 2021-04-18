@@ -6,6 +6,11 @@ function ProjectList() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const projects = [
         {
+            name: 'Food-Baby',
+            description: 'Food Baby is an easily customizable food ordering app template that can be tailored to each business.',
+            url: 'https://food-babycmnw.herokuapp.com/'
+        },
+        {
             name: 'Something Special',
             description: 'Local marketplace for event decor',
             url: 'https://cmnw-something-special.herokuapp.com/login'
